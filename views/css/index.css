@@ -1,0 +1,95 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #009999;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+#main {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    color:white;
+}
+
+#inner-holder {
+    width: 100%;
+    margin-top: 14px;
+}
+ 
+#rounds {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom:0px;
+    height: 37px;
+    border-radius: 4px;
+}
+
+#registered-nicknames {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom:0px;
+    height: 37px;
+    border-radius: 4px;
+}
+
+#fieldset-frame {
+    width: 100%;
+    height: 260px;
+    padding: 10px;
+    border: 1px #255872 solid;
+    border-radius: 6px;
+}
+
+h3 {
+    padding-left:20px;
+}
+
+h3 span {
+    font-style: italic;
+}
+
+form fieldset select {
+    margin-bottom: 10px !important;
+    margin-top: 6px!important;
+    color: #255872;
+}
+
+form fieldset .input-group {
+    margin-bottom: 10px !important;
+}
+
+form fieldset .input-group input {
+    color: #255872;
+}
+
+button {
+    width: 100%;
+    background-color: #255872;
+    border: 1px #009999 solid;
+    border-radius: 6px;
+    padding: 8px 16px 8px 16px;
+    margin: 3px 0px 3px 0px;
+}
+
+input#nickname {
+    height: 36px;
+}
+
+#shortlist {
+    width: 196px;
+    height: 134px;
+    padding: 6px 6px 6px 8px;
+    border: 1px #255872 solid;
+    overflow-y: auto;
+}
+
+
+
